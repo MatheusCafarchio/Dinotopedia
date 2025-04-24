@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+
+}
+
+.tela {
+
+    /* Cria um espaço para o menu fixo */
+    padding-bottom: 20px;
+    width: 100%;
+    height: 550px;
+    border: 20px solid rgba(0, 128, 0, 0.473);
+    /* Borda transparente para poder aplicar a imagem de borda */
+    border-image: url("../img/textura.jpeg") 50 repeat;
+    border-image-slice: 30;
+    background-color: black;
+    border-image-repeat: no-repeat;
+}
+
+.tela2 {
+
+    /* Cria um espaço para o menu fixo */
+    padding-bottom: 20px;
+    width: 100%;
+    height: 550px;
+    border: 20px solid rgba(0, 128, 0, 0.473);
+    /* Borda transparente para poder aplicar a imagem de borda */
+    border-image: url("../img/sky2.jpg") 50 repeat;
+    border-image-slice: 50;
+    border-image-repeat: no-repeat;
+    background-color: black;
+
+}
+
+.tela3 {
+
+    /* Cria um espaço para o menu fixo */
+    padding-bottom: 20px;
+    width: 100%;
+    height: 550px;
+    border: 20px solid rgba(0, 128, 0, 0.473);
+    /* Borda transparente para poder aplicar a imagem de borda */
+    border-image: url("../img/martext.jpeg") 50 repeat;
+    border-image-slice: 30;
+    background-color: black;
+    border-image-repeat: no-repeat;
+}
+
+.escrita {
+    width: 100%;
+    height: 110px;
+    background-color: rgb(105, 4, 18);
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    border-radius: 5px;
+
+
+
+}
+
+.escrita2 {
+    width: 100%;
+    height: 110px;
+    background-color: rgb(20, 124, 243);
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.escrita3 {
+    width: 100%;
+    height: 110px;
+    background-color: rgb(2, 35, 51);
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.escrita p {
+    padding: 10px;
+}
+
+.img img,.img2 img,.img3 img {
+    width: 100%;
+    height: 390px;
+    background-size: cover;
+
+
+
+}
+
+
+.menu {
+    display: inline-block;
+    width: 100%;
+    height: 195px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url('../img/pordosol.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 5px;
+}
+
+.menu2 {
+    display: inline-block;
+    width: 100%;
+    height: 195px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url('../img/skytex.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 5px;
+}
+
+.menu3 {
+    display: inline-block;
+    width: 100%;
+    height: 195px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url('../img/martext.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 5px;
+}
+
+
+.im1,.im21,.im31 {
+    position: relative;
+    top: -1px;
+
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    /* Sombra projetada para dar efeito 3D */
+}
+
+.im2,.im22,.im32 {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    /* Sombra projetada para dar efeito 3D */
+}
+
+.im3,.im23,.im33 {
+    width: 250px;
+    height: 150px;
+    background-size: cover;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    /* Sombra projetada para dar efeito 3D */
+}
+
+.im4,.im24,.im34 {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    /* Sombra projetada para dar efeito 3D */
+}
+
+.im5,.im25,.im35 {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    /* Sombra projetada para dar efeito 3D */
+}
+
+.im6,.im26,.im36 {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    /* Sombra projetada para dar efeito 3D */
+}
+
+.im1:hover,.im21:hover,.im31:hover,
+.im2:hover,.im22:hover,.im32:hover,
+.im3:hover,.im23:hover,.im33:hover,
+.im4:hover,.im24:hover,.im34:hover,
+.im5:hover,.im25:hover,.im35:hover,
+.im6:hover,.im26:hover,.im36:hover {
+    transform: scale(1.2);
+    /* Aumenta a escala do elemento ao passar o mouse */
+    transition: transform 0.3s ease;
+    /* Adiciona uma transição suave ao aumento da escala */
+}
+
+.header {
+    position: sticky;
+    width: 100%;
+    height: 40px;
+    display: inline-flex;
+    justify-content: left;
+    align-items: center;
+    background-color: rgb(0, 128, 0);
+
+    font-size: 30px;
+    position: fixed;
+    /* Faz o menu permanecer fixo */
+    top: 0;
+    /* Posiciona o menu no topo */
+    left: 0;
+    /* Alinha o menu à esquerda */
+    width: 100%;
+    /* Faz o menu ocupar toda a largura */
+
+    color: white;
+    /* Cor do texto */
+
+    /* Espaçamento interno */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Adiciona uma sombra */
+    z-index: 1000;
+    /* Garante que fique acima de outros elementos */
+
+}
+
+.header a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    left: -20px;
+    padding-left: 20px;
+
+
+}
+
+.header #terra:hover {
+    color: rgb(105, 4, 18);
+}
+
+.header #voar:hover {
+    color: rgb(20, 124, 243);
+}
+
+.header #agua:hover {
+    color: rgb(2, 35, 51);
+}
+
+.linha {
+    position: relative;
+    top: 40px;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(105, 4, 18);
+    color: white;
+    text-align: center;
+    justify-items: center;
+    font-size: 30px;
+}
+
+.linha2 {
+    display: block;
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(20, 124, 243);
+    text-align: center;
+
+}
+
+.linha3 {
+    display: block;
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(2, 35, 51);
+    text-align: center;
+
+}
+#inicio{
+    position: relative;
+    padding-left: 100px;
+    font-size: 20px;
+}
